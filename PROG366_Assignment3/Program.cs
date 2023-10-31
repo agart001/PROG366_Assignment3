@@ -43,6 +43,10 @@ namespace PROG366_Assignment3
             PrintStack(data_queue);
             Console.WriteLine("Use Case: changing data sets with multiple types" +
                 ", ordered by last entered to first entered");
+            Console.Write("\n");
+
+            Console.WriteLine("Best Uses: Arrays/Hashtables are better for storing large amounts of permanent data." +
+                "Stacks/Queues are best for storing small amounts of temporary data.");
         }
 
         public static dynamic[][] ReadIntoArray()
